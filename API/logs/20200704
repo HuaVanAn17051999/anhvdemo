@@ -1,0 +1,51 @@
+2020-07-04 14:14:05,772 [1] WARN - The 'bool' property 'IsShowHome' on entity type 'Categories' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2020-07-04 14:14:05,787 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-04 14:14:05,790 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-04 14:14:05,791 [1] WARN - No type was specified for the decimal column 'OriginalPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-04 14:14:05,793 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-04 14:14:06,677 [9] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-04 14:14:06,686 [8] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-04 14:14:07,270 [1] INFO - Now listening on: https://localhost:5001
+2020-07-04 14:14:07,272 [1] INFO - Now listening on: http://localhost:5000
+2020-07-04 14:14:07,274 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-07-04 14:14:07,275 [1] INFO - Hosting environment: Development
+2020-07-04 14:14:07,276 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-07-04 14:16:18,027 [1] WARN - The 'bool' property 'IsShowHome' on entity type 'Categories' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2020-07-04 14:16:18,042 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-04 14:16:18,044 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-04 14:16:18,045 [1] WARN - No type was specified for the decimal column 'OriginalPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-04 14:16:18,046 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-04 14:16:18,701 [7] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-04 14:16:18,714 [7] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-04 14:16:18,717 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-04 14:16:18,882 [1] INFO - Now listening on: https://localhost:5001
+2020-07-04 14:16:18,884 [1] INFO - Now listening on: http://localhost:5000
+2020-07-04 14:16:18,886 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-07-04 14:16:18,887 [1] INFO - Hosting environment: Development
+2020-07-04 14:16:18,889 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-07-04 14:31:45,666 [1] WARN - The 'bool' property 'IsShowHome' on entity type 'Categories' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2020-07-04 14:31:45,681 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-04 14:31:45,683 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-04 14:31:45,684 [1] WARN - No type was specified for the decimal column 'OriginalPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-04 14:31:45,685 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-04 14:31:46,285 [8] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-04 14:31:46,294 [8] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-04 14:31:46,300 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-04 14:31:46,457 [1] INFO - Now listening on: https://localhost:5001
+2020-07-04 14:31:46,459 [1] INFO - Now listening on: http://localhost:5000
+2020-07-04 14:31:46,461 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-07-04 14:31:46,462 [1] INFO - Hosting environment: Development
+2020-07-04 14:31:46,464 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-07-04 14:35:10,405 [1] WARN - The 'bool' property 'IsShowHome' on entity type 'Categories' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2020-07-04 14:35:10,431 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-04 14:35:10,434 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-04 14:35:10,437 [1] WARN - No type was specified for the decimal column 'OriginalPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-04 14:35:10,439 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-04 14:35:11,589 [11] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-04 14:35:11,610 [9] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-04 14:35:11,615 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-04 14:35:11,941 [1] INFO - Now listening on: https://localhost:5001
+2020-07-04 14:35:11,945 [1] INFO - Now listening on: http://localhost:5000
+2020-07-04 14:35:11,951 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-07-04 14:35:11,955 [1] INFO - Hosting environment: Development
+2020-07-04 14:35:11,960 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:API.Controllers.ParentController.CreateAsync(Application.Contract.Model.Parents.CreateParentRequestModel)">
+            <summary>
+            create new topic async
+            </summary>
+            <param name="createParentRequestModel">topic info to create new</param>
+            <response code="200">Create topic successfuly</response> 
+            <response code="500">Internal error server</response>
+        </member>
+        <member name="M:API.Controllers.UserController.SearchAsync(Application.Contract.Criteria.Users.UserCriteria)">
+            <summary>
+                search users async
+            </summary>
+            <param name="criteria"> criteria to search </param> 
+            <response code="200">Retrieve list topic successfuly</response> 
+            <response code="500">Internal error server</response>
+        </member>
+        <member name="M:API.Controllers.UserController.CreateAsync(Application.Contract.Model.Users.CreateUserRequestModel)">
+            <summary>
+            create new user async
+            </summary>
+            <param name="createUserRequestModel">user info to create new</param>
+            <response code="200">Create user successfuly</response> 
+            <response code="500">Internal error server</response>
+        </member>
+        <member name="M:API.Controllers.UserController.UpdateAsync(System.Int32,Application.Contract.Model.Users.UpdateUserRequestModel)">
+            <summary>
+            update user async
+            </summary>
+            <param name="id">user id to update</param>
+            <param name="updateUserRequestModel">topic info to update</param>
+            <response code="200">Create topic successfuly</response> 
+            <response code="500">Internal error server</response>
+        </member>
+        <member name="M:API.Controllers.UserController.DeleteAsync(System.Int32)">
+            <summary>
+            delete user async
+            </summary>
+            <param name="id">user id to delete</param>
+            <response code="204">Delete topic successfuly</response> 
+            <response code="500">Internal error server</response>
+        </member>
+    </members>
+</doc>

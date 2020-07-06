@@ -1,0 +1,53 @@
+2020-07-05 14:14:02,528 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-05 14:14:02,539 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-05 14:14:02,541 [1] WARN - No type was specified for the decimal column 'OriginalPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-05 14:14:02,543 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-05 14:14:03,497 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-05 14:14:03,506 [9] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-05 14:14:04,156 [1] INFO - Now listening on: https://localhost:5001
+2020-07-05 14:14:04,157 [1] INFO - Now listening on: http://localhost:5000
+2020-07-05 14:14:04,159 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-07-05 14:14:04,161 [1] INFO - Hosting environment: Development
+2020-07-05 14:14:04,162 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-07-05 14:32:04,611 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-05 14:32:04,622 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-05 14:32:04,624 [1] WARN - No type was specified for the decimal column 'OriginalPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-05 14:32:04,626 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-05 14:32:05,290 [7] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-05 14:32:05,300 [7] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-05 14:32:05,302 [9] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-05 14:32:05,464 [1] INFO - Now listening on: https://localhost:5001
+2020-07-05 14:32:05,465 [1] INFO - Now listening on: http://localhost:5000
+2020-07-05 14:32:05,467 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-07-05 14:32:05,468 [1] INFO - Hosting environment: Development
+2020-07-05 14:32:05,469 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-07-05 14:37:43,851 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-05 14:37:43,862 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-05 14:37:43,864 [1] WARN - No type was specified for the decimal column 'OriginalPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-05 14:37:43,866 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-05 14:37:44,464 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-05 14:37:44,477 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-05 14:37:44,483 [9] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-05 14:37:44,639 [1] INFO - Now listening on: https://localhost:5001
+2020-07-05 14:37:44,640 [1] INFO - Now listening on: http://localhost:5000
+2020-07-05 14:37:44,642 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-07-05 14:37:44,643 [1] INFO - Hosting environment: Development
+2020-07-05 14:37:44,646 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-07-05 14:38:25,439 [4] INFO - Running CreateAsync function in ParentAppService with params: 
+ Application.Contract.Model.Parents.CreateParentRequestModel
+2020-07-05 14:38:25,634 [18] INFO - CreateAsync successfully in ParentAppService with object Application.Entities.Parent.
+2020-07-05 14:39:48,361 [9] INFO - Running CreateAsync function in ParentAppService with params: 
+ Application.Contract.Model.Parents.CreateParentRequestModel
+2020-07-05 14:39:48,401 [17] INFO - CreateAsync successfully in ParentAppService with object Application.Entities.Parent.
+2020-07-05 15:38:02,466 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-05 15:38:02,532 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-05 15:38:02,536 [1] WARN - No type was specified for the decimal column 'OriginalPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-05 15:38:02,541 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-05 15:38:05,196 [9] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-05 15:38:05,220 [9] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-05 15:38:05,228 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-05 15:38:05,839 [1] INFO - Now listening on: https://localhost:5001
+2020-07-05 15:38:05,841 [1] INFO - Now listening on: http://localhost:5000
+2020-07-05 15:38:05,844 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-07-05 15:38:05,846 [1] INFO - Hosting environment: Development
+2020-07-05 15:38:05,848 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
