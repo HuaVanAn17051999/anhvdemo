@@ -1,0 +1,176 @@
+2020-09-23 10:16:42,951 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 10:16:42,969 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 10:16:42,971 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 10:16:43,952 [9] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 10:16:43,964 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 10:16:43,967 [5] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 10:16:44,150 [1] INFO - Now listening on: https://localhost:5001
+2020-09-23 10:16:44,153 [1] INFO - Now listening on: http://localhost:5000
+2020-09-23 10:16:44,156 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-23 10:16:44,158 [1] INFO - Hosting environment: Development
+2020-09-23 10:16:44,160 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-23 10:16:51,918 [9] INFO - Running GetAllAsync function in UserAppService
+2020-09-23 10:16:52,013 [9] INFO - GetAllAsync function in UserAppService completed successfully.
+2020-09-23 10:16:52,031 [9] INFO - Request results of GetAllAsync success
+2020-09-23 10:27:13,709 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 10:27:13,719 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 10:27:13,721 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 10:27:14,362 [9] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 10:27:14,372 [8] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 10:27:14,376 [9] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 10:27:14,548 [1] INFO - Now listening on: https://localhost:5001
+2020-09-23 10:27:14,550 [1] INFO - Now listening on: http://localhost:5000
+2020-09-23 10:27:14,552 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-23 10:27:14,554 [1] INFO - Hosting environment: Development
+2020-09-23 10:27:14,556 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-23 10:27:18,141 [10] INFO - Running GetAllAsync function in UserAppService
+2020-09-23 10:27:18,212 [8] INFO - GetAllAsync function in UserAppService completed successfully.
+2020-09-23 10:27:18,230 [8] INFO - Request results of GetAllAsync success
+2020-09-23 10:28:34,436 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 10:28:34,447 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 10:28:34,449 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 10:28:35,088 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 10:28:35,098 [11] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 10:28:35,103 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 10:28:35,279 [1] INFO - Now listening on: https://localhost:5001
+2020-09-23 10:28:35,281 [1] INFO - Now listening on: http://localhost:5000
+2020-09-23 10:28:35,283 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-23 10:28:35,286 [1] INFO - Hosting environment: Development
+2020-09-23 10:28:35,288 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-23 10:28:55,970 [4] INFO - Running GetAllAsync function in UserAppService
+2020-09-23 10:28:56,010 [11] INFO - GetAllAsync function in UserAppService completed successfully.
+2020-09-23 10:28:56,044 [11] INFO - Request results of GetAllAsync success
+2020-09-23 10:31:12,333 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 10:31:12,344 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 10:31:12,346 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 10:31:12,995 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 10:31:13,006 [8] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 10:31:13,013 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 10:31:13,176 [1] INFO - Now listening on: https://localhost:5001
+2020-09-23 10:31:13,178 [1] INFO - Now listening on: http://localhost:5000
+2020-09-23 10:31:13,180 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-23 10:31:13,182 [1] INFO - Hosting environment: Development
+2020-09-23 10:31:13,183 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-23 10:31:17,935 [8] INFO - Running GetAllAsync function in UserAppService
+2020-09-23 10:31:18,009 [9] INFO - GetAllAsync function in UserAppService completed successfully.
+2020-09-23 10:31:18,027 [9] INFO - Request results of GetAllAsync success
+2020-09-23 10:44:54,149 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 10:44:54,159 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 10:44:54,161 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 10:44:54,838 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 10:44:54,848 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 10:44:54,851 [11] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 10:44:55,010 [1] INFO - Now listening on: https://localhost:5001
+2020-09-23 10:44:55,011 [1] INFO - Now listening on: http://localhost:5000
+2020-09-23 10:44:55,013 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-23 10:44:55,015 [1] INFO - Hosting environment: Development
+2020-09-23 10:44:55,017 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-23 10:44:59,715 [10] INFO - Request results of GetListAsync success
+2020-09-23 10:45:04,761 [4] INFO - Request results of GetListAsync success
+2020-09-23 10:46:20,960 [10] INFO - Request results of GetListAsync success
+2020-09-23 10:46:21,011 [14] INFO - Running ListUserAsync function in UserAppService
+2020-09-23 10:46:21,056 [14] INFO - ListUserAsync function in UserAppService completed successfully.
+2020-09-23 10:46:21,072 [14] INFO - Request results of ListUserAsync success
+2020-09-23 10:46:54,085 [10] INFO - Running ListUserAsync function in UserAppService
+2020-09-23 10:46:54,108 [11] INFO - Request results of GetListAsync success
+2020-09-23 10:47:18,115 [16] INFO - Running ListUserAsync function in UserAppService
+2020-09-23 10:47:18,137 [16] INFO - ListUserAsync function in UserAppService completed successfully.
+2020-09-23 10:47:18,146 [16] INFO - Request results of ListUserAsync success
+2020-09-23 10:49:16,945 [10] INFO - Request results of GetListAsync success
+2020-09-23 11:16:57,302 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 11:16:57,313 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 11:16:57,315 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 11:16:57,956 [11] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 11:16:57,967 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 11:16:57,969 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 11:16:58,134 [1] INFO - Now listening on: https://localhost:5001
+2020-09-23 11:16:58,136 [1] INFO - Now listening on: http://localhost:5000
+2020-09-23 11:16:58,138 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-23 11:16:58,139 [1] INFO - Hosting environment: Development
+2020-09-23 11:16:58,141 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-23 11:17:45,578 [4] INFO - GetById successfully in UserAppService with object 2424.
+2020-09-23 11:17:45,602 [4] INFO - Request results of GetByIdAsync success
+2020-09-23 11:18:27,068 [8] INFO - GetById successfully in UserAppService with object 2424.
+2020-09-23 11:19:23,373 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 11:19:23,384 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 11:19:23,386 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 11:19:24,032 [8] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 11:19:24,041 [9] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 11:19:24,044 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 11:19:24,206 [1] INFO - Now listening on: https://localhost:5001
+2020-09-23 11:19:24,207 [1] INFO - Now listening on: http://localhost:5000
+2020-09-23 11:19:24,209 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-23 11:19:24,211 [1] INFO - Hosting environment: Development
+2020-09-23 11:19:24,212 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-23 11:19:46,267 [13] INFO - GetById successfully in UserAppService with object 1.
+2020-09-23 11:19:46,289 [13] INFO - Request results of GetByIdAsync success
+2020-09-23 11:23:48,750 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 11:23:48,763 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 11:23:48,764 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 11:23:49,412 [9] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 11:23:49,422 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 11:23:49,425 [9] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 11:23:49,594 [1] INFO - Now listening on: https://localhost:5001
+2020-09-23 11:23:49,596 [1] INFO - Now listening on: http://localhost:5000
+2020-09-23 11:23:49,597 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-23 11:23:49,599 [1] INFO - Hosting environment: Development
+2020-09-23 11:23:49,600 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-23 11:24:00,677 [10] INFO - GetById successfully in UserAppService with object 1.
+2020-09-23 11:24:00,709 [10] INFO - Request results of GetByIdAsync success
+2020-09-23 18:47:00,233 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 18:47:00,244 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 18:47:00,247 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 18:47:00,907 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 18:47:00,917 [8] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 18:47:00,920 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 18:47:01,082 [1] INFO - Now listening on: https://localhost:5001
+2020-09-23 18:47:01,084 [1] INFO - Now listening on: http://localhost:5000
+2020-09-23 18:47:01,086 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-23 18:47:01,087 [1] INFO - Hosting environment: Development
+2020-09-23 18:47:01,089 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-23 18:53:35,627 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 18:53:35,639 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 18:53:35,641 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 18:53:36,349 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 18:53:36,359 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 18:53:36,362 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 18:53:36,530 [1] INFO - Now listening on: https://localhost:5001
+2020-09-23 18:53:36,532 [1] INFO - Now listening on: http://localhost:5000
+2020-09-23 18:53:36,534 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-23 18:53:36,536 [1] INFO - Hosting environment: Development
+2020-09-23 18:53:36,537 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-23 18:53:45,826 [4] INFO - Request results of GetListAsync success
+2020-09-23 18:53:51,507 [8] INFO - Request results of GetListAsync success
+2020-09-23 23:19:07,474 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 23:19:07,484 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 23:19:07,486 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 23:19:08,165 [9] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 23:19:08,176 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 23:19:08,182 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 23:19:08,353 [1] INFO - Now listening on: https://localhost:5001
+2020-09-23 23:19:08,355 [1] INFO - Now listening on: http://localhost:5000
+2020-09-23 23:19:08,357 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-23 23:19:08,359 [1] INFO - Hosting environment: Development
+2020-09-23 23:19:08,360 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-23 23:21:23,150 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 23:21:23,161 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 23:21:23,163 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 23:21:23,881 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 23:21:23,892 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 23:21:23,900 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 23:21:24,082 [1] INFO - Now listening on: https://localhost:5001
+2020-09-23 23:21:24,084 [1] INFO - Now listening on: http://localhost:5000
+2020-09-23 23:21:24,085 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-23 23:21:24,087 [1] INFO - Hosting environment: Development
+2020-09-23 23:21:24,088 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-23 23:27:09,128 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 23:27:09,140 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 23:27:09,142 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-23 23:27:09,873 [11] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 23:27:09,882 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 23:27:09,885 [8] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-23 23:27:10,076 [1] INFO - Now listening on: https://localhost:5001
+2020-09-23 23:27:10,077 [1] INFO - Now listening on: http://localhost:5000
+2020-09-23 23:27:10,112 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-23 23:27:10,114 [1] INFO - Hosting environment: Development
+2020-09-23 23:27:10,116 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API

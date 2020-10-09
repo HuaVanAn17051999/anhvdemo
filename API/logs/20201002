@@ -1,0 +1,136 @@
+2020-10-02 22:20:22,150 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-10-02 22:20:22,165 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-10-02 22:20:22,167 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-10-02 22:20:23,128 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-10-02 22:20:23,139 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-10-02 22:20:23,142 [8] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-10-02 22:20:23,357 [1] INFO - Now listening on: http://localhost:5000
+2020-10-02 22:20:23,359 [1] INFO - Now listening on: https://localhost:5001
+2020-10-02 22:20:23,361 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-10-02 22:20:23,364 [1] INFO - Hosting environment: Development
+2020-10-02 22:20:23,366 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-10-02 22:22:09,456 [10] INFO - Request results of GetListAsync success
+2020-10-02 22:23:12,121 [10] INFO - Request results of GetListAsync success
+2020-10-02 22:23:23,291 [9] INFO - Running ListUserAsync function in UserAppService
+2020-10-02 22:23:23,313 [33] INFO - ListUserAsync function in UserAppService completed successfully.
+2020-10-02 22:23:23,322 [33] INFO - Request results of ListUserAsync success
+2020-10-02 22:23:27,035 [32] INFO - Request results of GetListAsync success
+2020-10-02 22:23:34,772 [36] INFO - ListRoleAsync function in RoleService completed successfully.
+2020-10-02 22:23:34,790 [36] INFO - Request results of GetListRoleAsync success
+2020-10-02 22:23:34,803 [33] INFO - Request results of GetByIdAsync success
+2020-10-02 23:06:31,007 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-10-02 23:06:31,018 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-10-02 23:06:31,020 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-10-02 23:06:31,671 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-10-02 23:06:31,681 [7] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-10-02 23:06:31,685 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-10-02 23:06:31,851 [1] INFO - Now listening on: http://localhost:5000
+2020-10-02 23:06:31,852 [1] INFO - Now listening on: https://localhost:5001
+2020-10-02 23:06:31,854 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-10-02 23:06:31,855 [1] INFO - Hosting environment: Development
+2020-10-02 23:06:31,856 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-10-02 23:06:39,749 [14] INFO - Running ListRoleAsync function in RoleService
+2020-10-02 23:06:39,773 [10] INFO - ListRoleAsync function in RoleService completed successfully.
+2020-10-02 23:06:39,811 [7] INFO - Request results of GetListAsync success
+2020-10-02 23:06:39,822 [15] INFO - GetById successfully in UserAppService with object 1.
+2020-10-02 23:06:39,829 [15] INFO - Request results of GetByIdAsync success
+2020-10-02 23:06:41,082 [16] INFO - Running ListUserAsync function in UserAppService
+2020-10-02 23:06:41,103 [9] INFO - ListUserAsync function in UserAppService completed successfully.
+2020-10-02 23:06:41,110 [9] INFO - Request results of ListUserAsync success
+2020-10-02 23:07:00,431 [14] INFO - Running ListUserAsync function in UserAppService
+2020-10-02 23:07:00,468 [13] INFO - Request results of ListUserAsync success
+2020-10-02 23:07:00,486 [4] INFO - Request results of GetListAsync success
+2020-10-02 23:09:38,093 [9] INFO - Running ListUserAsync function in UserAppService
+2020-10-02 23:09:38,135 [4] INFO - ListUserAsync function in UserAppService completed successfully.
+2020-10-02 23:09:38,150 [14] INFO - Request results of GetListAsync success
+2020-10-02 23:10:21,216 [23] INFO - Running ListUserAsync function in UserAppService
+2020-10-02 23:10:21,260 [9] INFO - Request results of GetListAsync success
+2020-10-02 23:10:55,359 [23] INFO - Request results of GetListAsync success
+2020-10-02 23:10:55,379 [23] INFO - ListUserAsync function in UserAppService completed successfully.
+2020-10-02 23:10:55,395 [23] INFO - Request results of ListUserAsync success
+2020-10-02 23:11:10,131 [27] INFO - Running ListUserAsync function in UserAppService
+2020-10-02 23:11:10,151 [26] INFO - Request results of GetListAsync success
+2020-10-02 23:12:35,016 [4] INFO - Running ListUserAsync function in UserAppService
+2020-10-02 23:12:35,051 [17] INFO - ListUserAsync function in UserAppService completed successfully.
+2020-10-02 23:12:35,069 [9] INFO - Request results of GetListAsync success
+2020-10-02 23:13:48,512 [34] INFO - Request results of GetListAsync success
+2020-10-02 23:13:48,532 [29] INFO - ListUserAsync function in UserAppService completed successfully.
+2020-10-02 23:13:48,544 [29] INFO - Request results of ListUserAsync success
+2020-10-02 23:13:54,860 [23] INFO - Request results of GetListAsync success
+2020-10-02 23:13:54,878 [23] INFO - ListUserAsync function in UserAppService completed successfully.
+2020-10-02 23:13:54,890 [23] INFO - Request results of ListUserAsync success
+2020-10-02 23:14:11,608 [9] INFO - Request results of GetListAsync success
+2020-10-02 23:14:11,647 [29] INFO - ListUserAsync function in UserAppService completed successfully.
+2020-10-02 23:14:11,663 [29] INFO - Request results of ListUserAsync success
+2020-10-02 23:14:59,672 [9] INFO - Request results of GetListAsync success
+2020-10-02 23:14:59,685 [40] INFO - Running ListUserAsync function in UserAppService
+2020-10-02 23:14:59,711 [9] INFO - ListUserAsync function in UserAppService completed successfully.
+2020-10-02 23:14:59,726 [9] INFO - Request results of ListUserAsync success
+2020-10-02 23:15:57,913 [9] ERROR - An exception occurred while iterating over the results of a query for context type 'Application.ShopDbContext'.
+System.Threading.ThreadAbortException: System error.
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.Threading.ThreadAbortException: System error.
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2020-10-02 23:15:58,197 [9] ERROR - An exception occurred while iterating over the results of a query for context type 'Application.ShopDbContext'.
+System.Threading.ThreadAbortException: System error.
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.Threading.ThreadAbortException: System error.
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2020-10-02 23:16:08,728 [45] ERROR - Failed executing DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0
+2020-10-02 23:16:08,774 [45] ERROR - An exception occurred while iterating over the results of a query for context type 'Application.ShopDbContext'.
+System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2020-10-02 23:17:01,195 [45] INFO - Request results of DeleteAsync success
+2020-10-02 23:17:09,316 [23] INFO - Request results of GetListAsync success
+2020-10-02 23:17:09,342 [43] INFO - ListUserAsync function in UserAppService completed successfully.
+2020-10-02 23:17:09,361 [43] INFO - Request results of ListUserAsync success
+2020-10-02 23:25:19,200 [49] INFO - Running ListUserAsync function in UserAppService
+2020-10-02 23:25:19,222 [23] INFO - Request results of GetListAsync success
+2020-10-02 23:25:36,016 [23] INFO - Request results of GetListAsync success
+2020-10-02 23:25:36,081 [50] INFO - Running ListUserAsync function in UserAppService
+2020-10-02 23:25:36,131 [44] INFO - ListUserAsync function in UserAppService completed successfully.
+2020-10-02 23:25:36,212 [44] INFO - Request results of ListUserAsync success
+2020-10-02 23:25:39,221 [50] INFO - Running ListUserAsync function in UserAppService
+2020-10-02 23:25:39,249 [9] INFO - Request results of GetListAsync success
+2020-10-02 23:26:38,510 [49] INFO - Running ListRoleAsync function in RoleService
+2020-10-02 23:26:38,525 [9] INFO - ListRoleAsync function in RoleService completed successfully.
+2020-10-02 23:26:38,537 [9] INFO - Request results of GetListRoleAsync success

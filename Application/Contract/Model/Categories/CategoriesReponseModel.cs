@@ -9,9 +9,10 @@ namespace Application.Contract.Model.Categories
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public int ParentId { get; set; }
-        public Status Status { get; set; }
+        public bool Status { get; set; }
         public string Seotitle { get; set; }
         public DateTime DateCreate { get; set; }
+        public int ParentId { get; set; }
+        //public int ParentId { get; set; }
     }
 }

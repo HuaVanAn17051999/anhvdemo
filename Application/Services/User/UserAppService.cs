@@ -3,11 +3,13 @@ using Application.Contract.Criteria.Users;
 using Application.Contract.Exceptions;
 using Application.Contract.Model.Common;
 using Application.Contract.Model.Users;
+using Application.Entities;
 using Application.Logging;
 using Application.Repository.Users;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -25,17 +27,18 @@ namespace Application.Services.User
         private readonly string seviceName = nameof(UserAppService);
         private readonly IUserRepository _userRepository;
         private readonly JwTOption _options;
-
-
+        private readonly RoleManager<Entities.Role> _roleManager;
         public UserAppService(IMapper mapper,
             UserManager<Entities.User> userManager, 
             IHttpContextAccessor httpContextAccessor, 
             JwTOption options,
-            IUserRepository userRepository)
+            IUserRepository userRepository,
+            RoleManager<Entities.Role> roleManager)
             :base(mapper, userManager, httpContextAccessor)
         {
             _options = options;
             _userRepository = userRepository;
+            _roleManager = roleManager;
 
         }
         public async Task<JwTAuthRepsonseModel> LoginAsync(HttpContext context)
@@ -66,7 +69,7 @@ namespace Application.Services.User
 
             Logger.LogDebug(LoggingMessage.ProcessingInService, actionName, seviceName, createUserRequestModel);
             var user = _Mapper.Map<Entities.User>(createUserRequestModel);
-
+                
             var userResult = await _userManager.CreateAsync(user, createUserRequestModel.Password);
             if (userResult.Succeeded)
             {
@@ -134,7 +137,42 @@ namespace Application.Services.User
             {
                 throw new InconsistentException(nameof(updateUserRequestModel));
             }
+            var username = await _userManager.Users.AnyAsync(x => x.UserName == updateUserRequestModel.UserName && x.Id != id);
 
+            if (username)
+            {
+                throw new DataAlreadyException(updateUserRequestModel.UserName);
+            }
+            var email = await _userManager.Users.AnyAsync(x => x.Email == updateUserRequestModel.Email && x.Id != id);
+
+            if (email)
+            {
+                throw new DataAlreadyException(updateUserRequestModel.Email);
+            }
+
+            var listRole = updateUserRequestModel.Role;
+
+            var _user = await _userManager.FindByIdAsync(id.ToString());
+
+            var roles = await _userManager.GetRolesAsync(_user);
+
+            foreach(var role in listRole)
+            {
+                if(await _userManager.IsInRoleAsync(_user, role) == false)
+                {
+                    await _userManager.AddToRoleAsync(_user, role);
+                }
+                else
+                {
+                    foreach(var item in roles)
+                    {
+                        if(!item.Contains(role))
+                        {
+                            await _userManager.RemoveFromRoleAsync(_user, item);
+                        }
+                    }
+                }
+            }
             Logger.LogDebug(LoggingMessage.ProcessingInService, actionName, seviceName, updateUserRequestModel);
             var user = await _userRepository.GetAsync(id);
             _Mapper.Map(updateUserRequestModel, user);
@@ -158,6 +196,7 @@ namespace Application.Services.User
             var claims = new List<Claim>();
             claims.Add(new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()));
             claims.Add(new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()));
+            claims.Add(new Claim(JwtRegisteredClaimNames.UniqueName, user.UserName));
             claims.Add(new Claim("roles", string.Join(",", roles)));
 
             return await Task.FromResult(new ClaimsIdentity(claims));
@@ -181,6 +220,27 @@ namespace Application.Services.User
             };
 
             return response;
+        }
+        public async Task<List<UserReponseList>> ListUserAsync()
+        {
+            var action = nameof(ListUserAsync);
+            Logger.LogInfomation(LoggingMessage.ProcessingInServiceWithoutModel, action, seviceName);
+            var response = await _userRepository.ListUserAsync();
+            Logger.LogInfomation(LoggingMessage.ProcessingInServiceSuccessfully, action, seviceName);
+            return response;
+          
+        }
+        public async Task<UserResponseModel> GetById(int id)
+        {
+            const string actionName = nameof(GetById);
+            Logger.LogDebug(LoggingMessage.ProcessingInService, actionName, seviceName, id);
+            var response = await _userRepository.BydIdAsync(id);
+            if (response == null)
+                throw new NotFoundException(nameof(id));
+            Logger.LogInfomation(LoggingMessage.ActionSuccessfully, actionName, seviceName, id);
+
+            return _Mapper.Map<UserResponseModel>(response);
+
         }
     }
 }

@@ -7,8 +7,9 @@ namespace Application.Contract.Model.Categories
 {
     public class UpdateCategoriesRequestModel
     {
+        public int Id { get; set; }
         public string Name { get; set; }
+        public bool Status { get; set; }
         public int ParentId { get; set; }
-        public Status Status { get; set; }
     }
 }

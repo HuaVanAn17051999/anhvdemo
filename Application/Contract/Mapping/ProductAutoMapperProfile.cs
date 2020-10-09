@@ -1,4 +1,5 @@
-﻿using Application.Contract.Model.Common;
+﻿using Application.Common;
+using Application.Contract.Model.Common;
 using Application.Contract.Model.Products;
 using Application.Entities;
 using AutoMapper;
@@ -14,8 +15,13 @@ namespace Application.Contract.Mapping
         {
             CreateMap<CreateProductRequestModel, Product>();
             CreateMap<UpdateProductRequestModel, Product>();
-            CreateMap<PageResultData<Product>, PageResultData<ProductReponseModel>>();
+            CreateMap<Product, ProductReponseModel>();
 
+            CreateMap<PagedList<Product>, PagedList<ProductReponseModel>>();
+
+
+            CreateMap<PageResultData<Product>, PageResultData<ProductReponseModel>>();
+          //  CreateMap<PagedList<Product>, PagedList<ProductReponseModel>>();
         }
     }
 }

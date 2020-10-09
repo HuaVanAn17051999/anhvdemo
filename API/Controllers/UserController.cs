@@ -30,7 +30,7 @@ namespace API.Controllers
         /// <response code="200">Retrieve list topic successfuly</response> 
         /// <response code="500">Internal error server</response>
         [HttpPost("search")]
-        [Authorize(Roles = "Administrator,Teacher")]
+        [Authorize(Roles = "Administrator")]
         public async Task<ActionResult<PageResultData<UserResponseModel>>> SearchAsync([FromBody] UserCriteria criteria)
         {
             const string actionName = nameof(SearchAsync);
@@ -70,6 +70,7 @@ namespace API.Controllers
         /// <response code="500">Internal error server</response>
         [HttpPut("{id}")]
         [Authorize(Roles = "Administrator")]
+        [AllowAnonymous]
         public async Task<ActionResult<UserResponseModel>> UpdateAsync(int id, [FromBody] UpdateUserRequestModel updateUserRequestModel)
         {
             const string actionName = nameof(UpdateAsync);
@@ -86,15 +87,15 @@ namespace API.Controllers
             return Ok(response);
 
         }
-
         /// <summary>
         /// delete user async
         /// </summary>
         /// <param name="id">user id to delete</param>
-        /// <response code="204">Delete topic successfuly</response> 
+        /// <response code="204">Delete user successfuly</response> 
         /// <response code="500">Internal error server</response>
         [HttpDelete("{id}")]
         [Authorize(Roles = "Administrator")]
+     
         public async Task<IActionResult> DeleteAsync(int id)
         {
             const string actionName = nameof(DeleteAsync);
@@ -104,5 +105,43 @@ namespace API.Controllers
 
             return NoContent();
         }
+        /// <summary>
+        /// getById user async
+        /// </summary>
+        /// <param name="id">user id to getById</param>
+        /// <response code="204">GetById user successfuly</response> 
+        /// <response code="500">Internal error server</response>
+        [HttpGet("{id}")]
+        [Authorize(Roles = "Administrator")]
+        [AllowAnonymous]
+        public async Task<IActionResult> GetByIdAsync(int id)
+        {
+            const string actionName = nameof(GetByIdAsync);
+            Logger.LogDebug(LoggingMessage.ProcessingRequestWithModel, actionName, id);
+            var response = await _userAppService.GetById(id);
+            Logger.LogInfomation(LoggingMessage.RequestResults, actionName);
+
+            return Ok(response);
+        }
+        /// <summary>
+        /// getAll user async
+        /// </summary>
+        /// <response code="204">GetAll UserAsync successfuly</response> 
+        /// <response code="500">Internal error server</response>
+        [HttpGet("ListUserAsync")]
+        [Authorize(Roles = "Administrator")]
+        [AllowAnonymous]
+
+
+        public async Task<IActionResult> ListUserAsync()
+        {       
+            const string actionName = nameof(ListUserAsync);
+            Logger.LogDebug(LoggingMessage.ProcessingRequest, actionName);
+            var response = await _userAppService.ListUserAsync();
+            Logger.LogInfomation(LoggingMessage.RequestResults, actionName);
+
+            return Ok(response);
+        }
+
     }
 }

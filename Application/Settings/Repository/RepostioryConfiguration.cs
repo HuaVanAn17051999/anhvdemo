@@ -1,11 +1,12 @@
-﻿using Application.Repository.Parents;
+﻿
+using Application.Repository.Categories;
+using Application.Repository.Order;
+using Application.Repository.Products;
+using Application.Repository.Roles;
 using Application.Repository.Users;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Application.Settings.Repository
 {
@@ -15,9 +16,12 @@ namespace Application.Settings.Repository
         {
             services.AddTransient<DbContext, ShopDbContext>();
             services.AddSingleton<HttpContextAccessor, HttpContextAccessor>();
-            services.AddScoped<IParentRepository, ParentRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
-            
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<IProductRepository, ProductRepostiory>();
+            services.AddScoped<IOrderRepository, OrderRepository>();
+            services.AddScoped<IRoleRepository, RoleRepository>();
+       
             return services;
         }
     }

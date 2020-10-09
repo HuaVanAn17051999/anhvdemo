@@ -1,0 +1,314 @@
+2020-09-04 08:08:38,925 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 08:08:38,936 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 08:08:38,937 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 08:08:38,961 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 08:08:39,785 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 08:08:39,794 [5] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 08:08:39,797 [5] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 08:08:39,966 [1] INFO - Now listening on: https://localhost:5001
+2020-09-04 08:08:39,969 [1] INFO - Now listening on: http://localhost:5000
+2020-09-04 08:08:39,971 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-04 08:08:39,972 [1] INFO - Hosting environment: Development
+2020-09-04 08:08:39,974 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-04 08:08:51,255 [18] INFO - Request results of GetListAsync success
+2020-09-04 08:09:27,279 [16] INFO - Request results of GetListAsync success
+2020-09-04 08:09:34,117 [16] INFO - Request results of GetListAsync success
+2020-09-04 08:10:52,484 [9] INFO - Request results of GetListAsync success
+2020-09-04 08:10:56,151 [15] INFO - Request results of GetListAsync success
+2020-09-04 08:11:13,968 [15] INFO - Request results of GetListAsync success
+2020-09-04 08:11:16,738 [15] INFO - Request results of GetListAsync success
+2020-09-04 08:11:51,689 [10] INFO - Request results of GetListAsync success
+2020-09-04 08:11:54,902 [15] INFO - Request results of GetListAsync success
+2020-09-04 08:11:58,760 [23] INFO - Running GetAllAsync function in UserAppService
+2020-09-04 08:11:58,782 [17] INFO - GetAllAsync function in UserAppService completed successfully.
+2020-09-04 08:11:58,802 [17] INFO - Request results of GetAllAsync success
+2020-09-04 08:11:59,164 [17] INFO - Request results of GetListAsync success
+2020-09-04 08:11:59,182 [9] INFO - Request results of GetListAsync success
+2020-09-04 08:11:59,791 [16] INFO - Running GetAllAsync function in UserAppService
+2020-09-04 08:11:59,802 [17] INFO - GetAllAsync function in UserAppService completed successfully.
+2020-09-04 08:11:59,809 [17] INFO - Request results of GetAllAsync success
+2020-09-04 08:12:22,460 [15] INFO - Request results of GetListAsync success
+2020-09-04 08:12:22,485 [23] INFO - Request results of GetListAsync success
+2020-09-04 08:12:29,040 [17] INFO - Request results of GetListAsync success
+2020-09-04 08:12:29,065 [16] INFO - Request results of GetListAsync success
+2020-09-04 08:13:50,372 [9] INFO - Request results of GetListAsync success
+2020-09-04 08:48:42,053 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 08:48:42,065 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 08:48:42,067 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 08:48:42,069 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 08:48:42,780 [5] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 08:48:42,789 [11] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 08:48:42,792 [5] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 08:48:42,965 [1] INFO - Now listening on: https://localhost:5001
+2020-09-04 08:48:42,966 [1] INFO - Now listening on: http://localhost:5000
+2020-09-04 08:48:42,968 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-04 08:48:42,969 [1] INFO - Hosting environment: Development
+2020-09-04 08:48:42,971 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-04 08:48:47,938 [9] INFO - Request results of GetListAsync success
+2020-09-04 08:48:50,829 [16] INFO - Request results of GetListAsync success
+2020-09-04 08:49:03,819 [18] INFO - Request results of GetListAsync success
+2020-09-04 08:49:08,896 [11] INFO - Request results of GetListAsync success
+2020-09-04 08:56:54,846 [10] INFO - Request results of GetListAsync success
+2020-09-04 09:03:35,701 [11] INFO - Request results of GetListAsync success
+2020-09-04 09:03:53,469 [16] INFO - Request results of GetListAsync success
+2020-09-04 09:04:43,610 [15] INFO - Request results of GetListAsync success
+2020-09-04 09:04:50,440 [18] INFO - Request results of GetListAsync success
+2020-09-04 09:17:07,902 [4] INFO - Request results of GetListAsync success
+2020-09-04 09:20:02,001 [26] INFO - Request results of GetListAsync success
+2020-09-04 09:22:40,281 [11] INFO - Request results of GetListAsync success
+2020-09-04 09:23:01,276 [22] INFO - Request results of GetListAsync success
+2020-09-04 09:28:37,929 [23] INFO - Request results of GetListAsync success
+2020-09-04 09:28:40,672 [11] INFO - Request results of GetListAsync success
+2020-09-04 09:29:18,361 [23] INFO - Request results of GetListAsync success
+2020-09-04 09:29:25,952 [23] INFO - Request results of GetListAsync success
+2020-09-04 09:30:38,790 [32] INFO - Request results of GetListAsync success
+2020-09-04 09:30:55,085 [35] INFO - Request results of GetListAsync success
+2020-09-04 09:31:03,298 [35] INFO - Request results of GetListAsync success
+2020-09-04 09:31:43,808 [10] INFO - Request results of GetListAsync success
+2020-09-04 09:34:00,059 [23] INFO - Running CreateAsync function in ProductAppService with params: 
+ Application.Contract.Model.Products.CreateProductRequestModel
+2020-09-04 09:34:00,670 [16] INFO - CreateAsync successfully in ProductAppService with object Application.Entities.Product.
+2020-09-04 09:34:00,697 [16] INFO - Request results of CreateAsync success
+2020-09-04 09:34:54,328 [29] INFO - Running CreateAsync function in ProductAppService with params: 
+ Application.Contract.Model.Products.CreateProductRequestModel
+2020-09-04 09:34:54,357 [34] INFO - CreateAsync successfully in ProductAppService with object Application.Entities.Product.
+2020-09-04 09:34:54,367 [34] INFO - Request results of CreateAsync success
+2020-09-04 09:35:46,503 [10] INFO - Running CreateAsync function in ProductAppService with params: 
+ Application.Contract.Model.Products.CreateProductRequestModel
+2020-09-04 09:35:46,527 [11] INFO - CreateAsync successfully in ProductAppService with object Application.Entities.Product.
+2020-09-04 09:35:46,537 [11] INFO - Request results of CreateAsync success
+2020-09-04 09:36:10,824 [10] INFO - Running CreateAsync function in ProductAppService with params: 
+ Application.Contract.Model.Products.CreateProductRequestModel
+2020-09-04 09:36:10,846 [11] INFO - CreateAsync successfully in ProductAppService with object Application.Entities.Product.
+2020-09-04 09:36:10,853 [11] INFO - Request results of CreateAsync success
+2020-09-04 13:23:05,105 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 13:23:05,129 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 13:23:05,131 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 13:23:05,132 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 13:23:06,045 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 13:23:06,055 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 13:23:06,058 [9] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 13:23:06,233 [1] INFO - Now listening on: https://localhost:5001
+2020-09-04 13:23:06,234 [1] INFO - Now listening on: http://localhost:5000
+2020-09-04 13:23:06,236 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-04 13:23:06,238 [1] INFO - Hosting environment: Development
+2020-09-04 13:23:06,239 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-04 13:23:13,698 [8] INFO - Request results of GetListAsync success
+2020-09-04 13:23:18,740 [18] INFO - Request results of GetListAsync success
+2020-09-04 13:24:01,337 [17] INFO - Request results of GetListAsync success
+2020-09-04 13:25:17,424 [4] INFO - Request results of GetListAsync success
+2020-09-04 13:27:21,351 [9] INFO - Request results of GetListAsync success
+2020-09-04 13:27:38,253 [4] INFO - Request results of GetListAsync success
+2020-09-04 13:28:50,018 [22] INFO - Request results of GetListAsync success
+2020-09-04 13:28:59,716 [13] INFO - Request results of GetListAsync success
+2020-09-04 13:30:38,862 [4] INFO - Request results of GetListAsync success
+2020-09-04 13:37:31,866 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 13:37:31,878 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 13:37:31,880 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 13:37:31,882 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 13:37:32,496 [8] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 13:37:32,506 [8] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 13:37:32,511 [9] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 13:37:32,664 [1] INFO - Now listening on: https://localhost:5001
+2020-09-04 13:37:32,666 [1] INFO - Now listening on: http://localhost:5000
+2020-09-04 13:37:32,668 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-04 13:37:32,669 [1] INFO - Hosting environment: Development
+2020-09-04 13:37:32,671 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-04 13:38:40,581 [18] INFO - Request results of GetListAsync success
+2020-09-04 13:39:28,041 [4] INFO - Request results of GetListAsync success
+2020-09-04 13:39:50,251 [4] INFO - Request results of GetListAsync success
+2020-09-04 13:41:42,323 [4] INFO - Request results of GetListAsync success
+2020-09-04 13:42:47,564 [16] INFO - Request results of GetListAsync success
+2020-09-04 13:46:49,432 [9] INFO - Request results of GetListAsync success
+2020-09-04 13:46:56,154 [9] INFO - Request results of GetListAsync success
+2020-09-04 13:46:58,806 [13] INFO - Request results of GetListAsync success
+2020-09-04 13:47:13,419 [10] INFO - Request results of GetListAsync success
+2020-09-04 14:02:08,899 [10] INFO - Request results of GetListAsync success
+2020-09-04 14:02:21,141 [24] INFO - Request results of GetListAsync success
+2020-09-04 14:04:52,346 [13] INFO - Request results of GetListAsync success
+2020-09-04 14:06:08,283 [13] INFO - Request results of GetListAsync success
+2020-09-04 14:07:10,285 [13] INFO - Request results of GetListAsync success
+2020-09-04 14:07:40,033 [4] INFO - Request results of GetListAsync success
+2020-09-04 14:08:34,896 [13] INFO - Request results of GetListAsync success
+2020-09-04 14:08:40,432 [4] INFO - Request results of GetListAsync success
+2020-09-04 14:08:45,907 [20] INFO - Request results of GetListAsync success
+2020-09-04 15:19:58,978 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 15:19:58,990 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 15:19:58,991 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 15:19:58,993 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 15:19:59,618 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 15:19:59,629 [8] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 15:19:59,635 [13] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 15:19:59,799 [1] INFO - Now listening on: https://localhost:5001
+2020-09-04 15:19:59,801 [1] INFO - Now listening on: http://localhost:5000
+2020-09-04 15:19:59,803 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-04 15:19:59,804 [1] INFO - Hosting environment: Development
+2020-09-04 15:19:59,806 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-04 15:20:11,613 [8] INFO - Request results of GetListAsync success
+2020-09-04 15:20:11,654 [8] INFO - Request results of GetListAsync success
+2020-09-04 15:20:36,910 [9] INFO - Request results of GetListAsync success
+2020-09-04 15:20:36,940 [4] INFO - Request results of GetListAsync success
+2020-09-04 15:20:47,475 [10] INFO - Request results of GetListAsync success
+2020-09-04 15:20:47,509 [10] INFO - Request results of GetListAsync success
+2020-09-04 15:24:09,321 [4] INFO - Request results of GetListAsync success
+2020-09-04 15:24:09,356 [4] INFO - Request results of GetListAsync success
+2020-09-04 15:26:14,203 [13] INFO - Request results of GetListAsync success
+2020-09-04 15:26:14,236 [16] INFO - Request results of GetListAsync success
+2020-09-04 15:26:55,227 [8] INFO - Request results of GetListAsync success
+2020-09-04 15:26:55,253 [10] INFO - Request results of GetListAsync success
+2020-09-04 15:27:30,790 [4] INFO - Request results of GetListAsync success
+2020-09-04 15:27:30,847 [16] INFO - Request results of GetListAsync success
+2020-09-04 15:28:28,689 [9] INFO - Request results of GetListAsync success
+2020-09-04 15:28:28,720 [4] INFO - Request results of GetListAsync success
+2020-09-04 15:28:50,652 [15] INFO - Request results of GetListAsync success
+2020-09-04 15:28:50,706 [4] INFO - Request results of GetListAsync success
+2020-09-04 15:30:07,777 [9] INFO - Request results of GetListAsync success
+2020-09-04 15:30:07,823 [10] INFO - Request results of GetListAsync success
+2020-09-04 16:19:29,682 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 16:19:29,693 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 16:19:29,695 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 16:19:29,697 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 16:19:30,343 [9] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 16:19:30,353 [9] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 16:19:30,356 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 16:19:30,514 [1] INFO - Now listening on: https://localhost:5001
+2020-09-04 16:19:30,515 [1] INFO - Now listening on: http://localhost:5000
+2020-09-04 16:19:30,517 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-04 16:19:30,518 [1] INFO - Hosting environment: Development
+2020-09-04 16:19:30,520 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-04 16:19:39,008 [16] INFO - Request results of GetListAsync success
+2020-09-04 16:19:53,652 [4] INFO - Request results of GetListAsync success
+2020-09-04 16:19:59,334 [8] INFO - Request results of GetListAsync success
+2020-09-04 16:20:39,369 [17] INFO - Request results of GetListAsync success
+2020-09-04 16:21:13,442 [8] INFO - Request results of GetListAsync success
+2020-09-04 16:23:11,277 [9] INFO - Request results of GetListAsync success
+2020-09-04 16:26:40,282 [8] INFO - Request results of GetListAsync success
+2020-09-04 16:27:24,430 [4] INFO - Request results of GetListAsync success
+2020-09-04 16:27:24,456 [4] INFO - Request results of GetListAsync success
+2020-09-04 16:27:29,964 [10] INFO - Request results of GetListAsync success
+2020-09-04 16:27:29,983 [8] INFO - Request results of GetListAsync success
+2020-09-04 16:27:36,149 [8] INFO - Request results of GetListAsync success
+2020-09-04 16:27:36,174 [9] INFO - Request results of GetListAsync success
+2020-09-04 16:27:38,237 [8] INFO - Request results of GetListAsync success
+2020-09-04 16:27:38,257 [9] INFO - Request results of GetListAsync success
+2020-09-04 16:27:40,080 [13] INFO - Request results of GetListAsync success
+2020-09-04 16:27:40,103 [8] INFO - Request results of GetListAsync success
+2020-09-04 16:27:53,745 [8] INFO - Request results of GetListAsync success
+2020-09-04 16:27:53,764 [13] INFO - Request results of GetListAsync success
+2020-09-04 16:27:55,968 [4] INFO - Request results of GetListAsync success
+2020-09-04 16:27:55,987 [9] INFO - Request results of GetListAsync success
+2020-09-04 16:28:06,913 [9] INFO - Request results of GetListAsync success
+2020-09-04 16:28:06,933 [8] INFO - Request results of GetListAsync success
+2020-09-04 16:35:39,305 [24] INFO - Request results of GetListAsync success
+2020-09-04 16:39:55,247 [8] INFO - Request results of GetListAsync success
+2020-09-04 16:40:00,813 [8] INFO - Request results of GetListAsync success
+2020-09-04 16:40:58,067 [28] INFO - Request results of GetListAsync success
+2020-09-04 16:40:59,977 [4] INFO - Request results of GetListAsync success
+2020-09-04 16:41:19,081 [4] INFO - Request results of GetListAsync success
+2020-09-04 16:41:19,108 [4] INFO - Request results of GetListAsync success
+2020-09-04 16:43:03,221 [33] INFO - Request results of GetListAsync success
+2020-09-04 16:44:01,402 [17] INFO - Request results of GetListAsync success
+2020-09-04 16:44:01,427 [17] INFO - Request results of GetListAsync success
+2020-09-04 16:44:54,326 [28] INFO - Request results of GetListAsync success
+2020-09-04 16:46:35,328 [8] INFO - Request results of GetListAsync success
+2020-09-04 16:46:47,634 [17] INFO - Request results of GetListAsync success
+2020-09-04 16:49:20,327 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 16:49:20,341 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 16:49:20,343 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 16:49:20,345 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 16:49:20,964 [11] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 16:49:20,973 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 16:49:20,976 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 16:49:21,134 [1] INFO - Now listening on: https://localhost:5001
+2020-09-04 16:49:21,136 [1] INFO - Now listening on: http://localhost:5000
+2020-09-04 16:49:21,137 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-04 16:49:21,138 [1] INFO - Hosting environment: Development
+2020-09-04 16:49:21,140 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-04 16:50:43,336 [15] INFO - Running CreateAsync function in ProductAppService with params: 
+ Application.Contract.Model.Products.CreateProductRequestModel
+2020-09-04 16:52:44,574 [15] INFO - CreateAsync successfully in ProductAppService with object Application.Entities.Product.
+2020-09-04 16:52:44,585 [15] INFO - Request results of CreateAsync success
+2020-09-04 21:30:52,709 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 21:30:52,720 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 21:30:52,722 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 21:30:52,724 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 21:30:53,712 [9] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 21:30:53,722 [9] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 21:30:53,725 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 21:30:53,904 [1] INFO - Now listening on: https://localhost:5001
+2020-09-04 21:30:53,906 [1] INFO - Now listening on: http://localhost:5000
+2020-09-04 21:30:53,907 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-04 21:30:53,909 [1] INFO - Hosting environment: Development
+2020-09-04 21:30:53,910 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-04 21:30:57,399 [9] INFO - Request results of GetListAsync success
+2020-09-04 21:30:57,492 [11] INFO - Request results of GetListAsync success
+2020-09-04 21:32:45,510 [11] INFO - Request results of GetListAsync success
+2020-09-04 21:32:45,573 [7] INFO - Request results of GetListAsync success
+2020-09-04 21:33:59,560 [20] INFO - Running CreateAsync function in ProductAppService with params: 
+ Application.Contract.Model.Products.CreateProductRequestModel
+2020-09-04 21:34:00,104 [7] INFO - CreateAsync successfully in ProductAppService with object Application.Entities.Product.
+2020-09-04 21:34:00,123 [7] INFO - Request results of CreateAsync success
+2020-09-04 21:34:26,563 [7] INFO - Request results of GetListAsync success
+2020-09-04 21:34:30,879 [18] INFO - Request results of GetListAsync success
+2020-09-04 21:37:37,052 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 21:37:37,064 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 21:37:37,066 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 21:37:37,068 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 21:37:37,774 [8] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 21:37:37,787 [8] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 21:37:37,791 [8] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 21:37:37,964 [1] INFO - Now listening on: https://localhost:5001
+2020-09-04 21:37:37,966 [1] INFO - Now listening on: http://localhost:5000
+2020-09-04 21:37:37,968 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-04 21:37:37,970 [1] INFO - Hosting environment: Development
+2020-09-04 21:37:37,972 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-04 21:37:47,748 [8] INFO - Request results of GetListAsync success
+2020-09-04 21:37:47,789 [16] INFO - Request results of GetListAsync success
+2020-09-04 21:37:55,032 [15] INFO - Request results of GetListAsync success
+2020-09-04 21:38:51,287 [8] INFO - Request results of GetListAsync success
+2020-09-04 21:38:51,331 [8] INFO - Request results of GetListAsync success
+2020-09-04 21:39:25,747 [2] INFO - Application is shutting down...
+2020-09-04 22:23:26,290 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 22:23:26,300 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 22:23:26,302 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 22:23:26,303 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-04 22:23:26,949 [9] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 22:23:26,959 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 22:23:26,961 [8] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-04 22:23:27,130 [1] INFO - Now listening on: https://localhost:5001
+2020-09-04 22:23:27,132 [1] INFO - Now listening on: http://localhost:5000
+2020-09-04 22:23:27,133 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-04 22:23:27,134 [1] INFO - Hosting environment: Development
+2020-09-04 22:23:27,136 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-04 22:23:59,073 [9] INFO - Request results of GetListAsync success
+2020-09-04 22:23:59,113 [10] INFO - Request results of GetListAsync success
+2020-09-04 22:24:31,341 [13] INFO - Request results of GetListAsync success
+2020-09-04 22:24:31,452 [18] INFO - Request results of GetListAsync success
+2020-09-04 22:24:45,218 [19] INFO - Request results of GetListAsync success
+2020-09-04 22:24:45,262 [19] INFO - Request results of GetListAsync success
+2020-09-04 22:24:49,077 [20] INFO - Request results of GetListAsync success
+2020-09-04 22:24:49,127 [19] INFO - Request results of GetListAsync success
+2020-09-04 22:25:15,195 [19] INFO - Request results of GetListAsync success
+2020-09-04 22:25:15,243 [10] INFO - Request results of GetListAsync success
+2020-09-04 22:25:31,800 [8] INFO - Request results of GetListAsync success
+2020-09-04 22:25:31,891 [10] INFO - Request results of GetListAsync success
+2020-09-04 22:26:42,543 [6] INFO - Request results of GetListAsync success
+2020-09-04 22:26:42,635 [8] INFO - Request results of GetListAsync success
+2020-09-04 22:33:35,270 [9] INFO - Request results of GetListAsync success
+2020-09-04 22:33:35,317 [17] INFO - Request results of GetListAsync success
+2020-09-04 22:34:01,036 [9] INFO - Request results of GetListAsync success
+2020-09-04 22:34:01,183 [10] INFO - Request results of GetListAsync success
+2020-09-04 22:34:36,922 [26] INFO - Request results of GetListAsync success
+2020-09-04 22:34:36,983 [9] INFO - Request results of GetListAsync success
+2020-09-04 22:35:14,875 [26] INFO - Request results of GetListAsync success
+2020-09-04 22:35:14,940 [29] INFO - Request results of GetListAsync success
+2020-09-04 22:35:48,894 [11] INFO - Request results of GetListAsync success
+2020-09-04 22:35:48,941 [26] INFO - Request results of GetListAsync success
+2020-09-04 22:35:49,682 [18] INFO - Request results of GetListAsync success
+2020-09-04 22:35:50,404 [11] INFO - Request results of GetListAsync success
+2020-09-04 22:35:57,561 [11] INFO - Request results of GetListAsync success
+2020-09-04 22:36:00,198 [13] INFO - Request results of GetListAsync success
+2020-09-04 22:36:01,793 [32] INFO - Request results of GetListAsync success
+2020-09-04 22:36:02,653 [32] INFO - Request results of GetListAsync success
+2020-09-04 22:36:03,253 [11] INFO - Request results of GetListAsync success
+2020-09-04 22:36:03,594 [13] INFO - Request results of GetListAsync success

@@ -10,8 +10,8 @@ namespace Application
 {
     public class ShopDbContext : IdentityDbContext<User, Role, int, UserClaim, UserRole, UserLogin, RoleClaim, UserToken>
     {
-        public ShopDbContext(DbContextOptions<ShopDbContext> options) : base(options)
-        {
+        public ShopDbContext(DbContextOptions<ShopDbContext> options)
+        {   
 
         }
         protected override void OnModelCreating(ModelBuilder builder)
@@ -25,25 +25,30 @@ namespace Application
             builder.ApplyConfiguration(new UserTokenEntityConfiguration());
             builder.ApplyConfiguration(new UserRoleEntityConfiguration());
 
-            builder.ApplyConfiguration(new ParentConfiguration());
             builder.ApplyConfiguration(new ProductConfiguration());
             builder.ApplyConfiguration(new CategoriesConfiguration());
             builder.ApplyConfiguration(new OrderConfiguration());
             builder.ApplyConfiguration(new OrderDetailConfiguration());
-            builder.ApplyConfiguration(new CartConfiguration());
+            builder.ApplyConfiguration(new ImageConfiguration());
+            builder.ApplyConfiguration(new ImageProductsConfiguration());
+ 
+            
+         
 
-            builder.Seed();
+
+          //  builder.Seed();
         }
         public DbSet<Categories> Categories { get; set; }
-        public DbSet<Parent> Parents { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Menu> Menus { get; set; }
-        public DbSet<ProductImage> ProductImages { get; set; }
         public DbSet<TypeMenu> TypeMenus { get; set; }
-        public DbSet<Order>Orders { get; set; }
-        public DbSet<Cart> Carts { get; set; }
+        public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
         public DbSet<Contact> Contacts { get; set; }
+        public DbSet<Image> Images { get; set; }
+        public DbSet<ImageProduct> ImageProducts { get; set; }
+
+        
       
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

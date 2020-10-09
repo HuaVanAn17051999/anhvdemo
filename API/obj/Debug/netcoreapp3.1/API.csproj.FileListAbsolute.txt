@@ -78,3 +78,6 @@ D:\ASP.NET_CORE\ShopAnHua\API\bin\Debug\netcoreapp3.1\log4net.config
 D:\ASP.NET_CORE\ShopAnHua\API\obj\Debug\netcoreapp3.1\API.csproj.CoreCompileInputs.cache
 D:\ASP.NET_CORE\ShopAnHua\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cs
 D:\ASP.NET_CORE\ShopAnHua\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cache
+D:\ASP.NET_CORE\ShopAnHua\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\ASP.NET_CORE\ShopAnHua\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\ASP.NET_CORE\ShopAnHua\API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll

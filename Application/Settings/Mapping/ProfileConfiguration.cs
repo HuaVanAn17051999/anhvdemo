@@ -12,9 +12,10 @@ namespace Application.Settings.Mapping
             Type[] profiles = {
                
                 typeof(UserAutoMapperProfile),
-                typeof(ParentAutoMapperProfile),
                 typeof(CategoriesAutoMapperProfile),
-                typeof(ProductAutoMapperProfile)
+                typeof(ProductAutoMapperProfile),
+                typeof(OrderAutoMapperProfile),
+                typeof(RoleAutoMapperProfile)
             };
             services.AddAutoMapper(profiles);
             return services;

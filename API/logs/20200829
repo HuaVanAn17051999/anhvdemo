@@ -1,0 +1,14 @@
+2020-08-29 23:14:48,012 [1] WARN - The 'bool' property 'IsDefault' on entity type 'ProductImage' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2020-08-29 23:14:48,030 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-08-29 23:14:48,032 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-08-29 23:14:48,034 [1] WARN - No type was specified for the decimal column 'OriginalPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-08-29 23:14:48,035 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-08-29 23:14:48,905 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-08-29 23:14:48,914 [5] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-08-29 23:14:48,916 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-08-29 23:14:49,108 [1] INFO - Now listening on: https://localhost:5001
+2020-08-29 23:14:49,110 [1] INFO - Now listening on: http://localhost:5000
+2020-08-29 23:14:49,112 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-08-29 23:14:49,114 [1] INFO - Hosting environment: Development
+2020-08-29 23:14:49,116 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-08-29 23:34:18,919 [17] INFO - Request results of GetListAsync success

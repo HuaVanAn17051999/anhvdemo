@@ -1,0 +1,92 @@
+2020-09-30 00:03:06,896 [48] INFO - Request results of GetListAsync success
+2020-09-30 00:03:06,936 [10] INFO - Running ListRoleAsync function in RoleService
+2020-09-30 00:03:06,953 [48] INFO - Request results of GetByIdAsync success
+2020-09-30 00:03:11,587 [41] INFO - Request results of GetListAsync success
+2020-09-30 00:03:11,642 [48] INFO - Running ListRoleAsync function in RoleService
+2020-09-30 00:03:11,661 [9] INFO - Request results of GetByIdAsync success
+2020-09-30 00:03:16,345 [50] INFO - Request results of GetListAsync success
+2020-09-30 00:03:16,390 [48] INFO - Running ListRoleAsync function in RoleService
+2020-09-30 00:03:16,405 [9] INFO - ListRoleAsync function in RoleService completed successfully.
+2020-09-30 00:03:16,414 [9] INFO - Request results of GetListRoleAsync success
+2020-09-30 00:05:30,621 [39] INFO - Request results of GetListAsync success
+2020-09-30 00:05:30,682 [54] INFO - ListRoleAsync function in RoleService completed successfully.
+2020-09-30 00:05:30,682 [55] INFO - GetById successfully in UserAppService with object 1.
+2020-09-30 00:05:30,696 [55] INFO - Request results of GetByIdAsync success
+2020-09-30 00:05:35,171 [48] INFO - Request results of GetListAsync success
+2020-09-30 00:05:35,209 [53] INFO - Running ListRoleAsync function in RoleService
+2020-09-30 00:05:35,230 [53] INFO - Request results of GetListRoleAsync success
+2020-09-30 00:06:25,371 [61] INFO - Request results of GetListAsync success
+2020-09-30 00:06:25,408 [61] INFO - Running ListRoleAsync function in RoleService
+2020-09-30 00:06:25,428 [61] INFO - Request results of GetByIdAsync success
+2020-09-30 00:06:42,748 [55] INFO - Running ListRoleAsync function in RoleService
+2020-09-30 00:06:42,785 [61] INFO - Request results of GetListRoleAsync success
+2020-09-30 00:06:57,171 [9] INFO - Request results of GetListAsync success
+2020-09-30 00:06:57,203 [53] INFO - Running ListRoleAsync function in RoleService
+2020-09-30 00:06:57,223 [61] INFO - Request results of GetByIdAsync success
+2020-09-30 00:08:11,541 [65] INFO - Request results of GetListAsync success
+2020-09-30 00:08:11,588 [65] INFO - ListRoleAsync function in RoleService completed successfully.
+2020-09-30 00:08:11,614 [78] INFO - GetById successfully in UserAppService with object 1.
+2020-09-30 00:08:11,628 [78] INFO - Request results of GetByIdAsync success
+2020-09-30 00:10:42,928 [79] INFO - Request results of GetListAsync success
+2020-09-30 00:10:43,008 [83] INFO - Running ListRoleAsync function in RoleService
+2020-09-30 00:10:43,029 [83] INFO - Request results of GetByIdAsync success
+2020-09-30 00:11:55,846 [90] INFO - Request results of GetListAsync success
+2020-09-30 00:11:55,870 [62] INFO - Running ListRoleAsync function in RoleService
+2020-09-30 00:11:55,937 [88] INFO - Request results of GetByIdAsync success
+2020-09-30 00:12:55,643 [95] INFO - Request results of GetListAsync success
+2020-09-30 00:12:55,692 [92] INFO - Request results of GetByIdAsync success
+2020-09-30 00:13:19,180 [92] INFO - Request results of GetListAsync success
+2020-09-30 00:13:19,264 [99] INFO - Running ListRoleAsync function in RoleService
+2020-09-30 00:13:19,278 [90] INFO - Request results of GetListRoleAsync success
+2020-09-30 00:13:35,172 [100] INFO - Running ListRoleAsync function in RoleService
+2020-09-30 00:13:35,193 [82] INFO - Request results of GetListRoleAsync success
+2020-09-30 00:13:43,080 [90] INFO - Request results of GetListAsync success
+2020-09-30 00:13:43,108 [102] INFO - Running ListRoleAsync function in RoleService
+2020-09-30 00:13:43,135 [90] INFO - ListRoleAsync function in RoleService completed successfully.
+2020-09-30 00:13:43,145 [90] INFO - Request results of GetListRoleAsync success
+2020-09-30 00:13:51,144 [95] INFO - Request results of GetListAsync success
+2020-09-30 00:13:51,163 [95] INFO - Running ListRoleAsync function in RoleService
+2020-09-30 00:13:51,199 [92] INFO - Request results of GetListRoleAsync success
+2020-09-30 00:14:34,919 [100] INFO - Running ListRoleAsync function in RoleService
+2020-09-30 00:14:34,954 [100] INFO - Request results of GetListAsync success
+2020-09-30 00:14:34,993 [81] INFO - Request results of GetListRoleAsync success
+2020-09-30 00:15:23,804 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-30 00:15:23,817 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-30 00:15:23,819 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-30 00:15:24,528 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-30 00:15:24,539 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-30 00:15:24,542 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-30 00:15:24,725 [1] INFO - Now listening on: http://localhost:5000
+2020-09-30 00:15:24,728 [1] INFO - Now listening on: https://localhost:5001
+2020-09-30 00:15:24,730 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-30 00:15:24,731 [1] INFO - Hosting environment: Development
+2020-09-30 00:15:24,733 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-30 00:15:30,755 [5] INFO - Running ListRoleAsync function in RoleService
+2020-09-30 00:15:30,806 [4] INFO - Request results of GetListRoleAsync success
+2020-09-30 00:15:30,821 [13] INFO - Request results of GetListAsync success
+2020-09-30 00:15:30,836 [5] INFO - GetById successfully in UserAppService with object 1.
+2020-09-30 00:15:30,844 [5] INFO - Request results of GetByIdAsync success
+2020-09-30 00:16:00,578 [20] INFO - Running ListRoleAsync function in RoleService
+2020-09-30 00:16:00,610 [20] INFO - GetById successfully in UserAppService with object 1.
+2020-09-30 00:16:00,642 [19] INFO - ListRoleAsync function in RoleService completed successfully.
+2020-09-30 00:16:00,644 [20] INFO - Request results of GetByIdAsync success
+2020-09-30 00:16:00,667 [19] INFO - Request results of GetListRoleAsync success
+2020-09-30 00:17:34,455 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-30 00:17:34,470 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-30 00:17:34,472 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-30 00:17:35,265 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-30 00:17:35,280 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-30 00:17:35,284 [11] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-30 00:17:35,551 [1] INFO - Now listening on: http://localhost:5000
+2020-09-30 00:17:35,553 [1] INFO - Now listening on: https://localhost:5001
+2020-09-30 00:17:35,555 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-30 00:17:35,557 [1] INFO - Hosting environment: Development
+2020-09-30 00:17:35,559 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-30 00:17:42,421 [10] INFO - Running ListRoleAsync function in RoleService
+2020-09-30 00:17:42,444 [4] INFO - ListRoleAsync function in RoleService completed successfully.
+2020-09-30 00:17:42,484 [18] INFO - Request results of GetListAsync success
+2020-09-30 00:17:42,500 [15] INFO - GetById successfully in UserAppService with object 1.
+2020-09-30 00:17:42,508 [15] INFO - Request results of GetByIdAsync success
+2020-09-30 00:18:01,281 [16] INFO - Running ListRoleAsync function in RoleService
+2020-09-30 00:18:01,382 [17] INFO - ListRoleAsync function in RoleService completed successfully.
+2020-09-30 00:18:01,399 [10] INFO - Request results of GetListAsync success

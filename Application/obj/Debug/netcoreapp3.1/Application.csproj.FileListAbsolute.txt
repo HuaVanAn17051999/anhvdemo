@@ -9,5 +9,5 @@ D:\ASP.NET_CORE\ShopAnHua\Application\obj\Debug\netcoreapp3.1\Application.pdb
 D:\ASP.NET_CORE\ShopAnHua\Application\bin\Debug\netcoreapp3.1\Application.runtimeconfig.json
 D:\ASP.NET_CORE\ShopAnHua\Application\bin\Debug\netcoreapp3.1\Application.runtimeconfig.dev.json
 D:\ASP.NET_CORE\ShopAnHua\Application\obj\Debug\netcoreapp3.1\Application.genruntimeconfig.cache
-D:\ASP.NET_CORE\ShopAnHua\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
 D:\ASP.NET_CORE\ShopAnHua\Application\bin\Debug\netcoreapp3.1\log4net.config
+D:\ASP.NET_CORE\ShopAnHua\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache

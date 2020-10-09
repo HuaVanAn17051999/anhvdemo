@@ -17,6 +17,9 @@ namespace Application.Services.User
         Task<UserResponseModel> CreateAsync(CreateUserRequestModel createUserRequestModel);
         Task<UserResponseModel> UpdateAsync(int id, UpdateUserRequestModel updateUserRequestModel);
         Task<PageResultData<UserResponseModel>> SearchAsync(UserCriteria criteria);
+        Task<List<UserReponseList>> ListUserAsync();
+        Task<UserResponseModel> GetById(int id);
         Task DeleteAsync(int id);
+
     }
-}
+ }

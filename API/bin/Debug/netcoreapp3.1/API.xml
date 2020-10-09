@@ -4,12 +4,101 @@
         <name>API</name>
     </assembly>
     <members>
-        <member name="M:API.Controllers.ParentController.CreateAsync(Application.Contract.Model.Parents.CreateParentRequestModel)">
+        <member name="M:API.Controllers.CategoryController.CreateAsync(Application.Contract.Model.Categories.CreateCategoriesRequestModel)">
             <summary>
-            create new topic async
+            create new category async
             </summary>
-            <param name="createParentRequestModel">topic info to create new</param>
-            <response code="200">Create topic successfuly</response> 
+            <param name="createCategoriesRequestModel">category info to create new</param>
+            <response code="200">reate user successfuly</response> 
+            <response code="500">Internal error server</response>
+        </member>
+        <member name="M:API.Controllers.CategoryController.UpdateAsync(System.Int32,Application.Contract.Model.Categories.UpdateCategoriesRequestModel)">
+            <summary>
+            update category async
+            </summary>
+            <param name="categoryId">categoryId to update new</param>
+            <param name="updateCategoriesRequestModel">category info to update new</param>
+            <response code="200">reate user successfuly</response> 
+            <response code="500">Internal error server</response>
+        </member>
+        <member name="M:API.Controllers.CategoryController.DeleteAsync(System.Int32)">
+            <summary>
+            delete category async
+            </summary>
+            <param name="id">category id to delete</param>
+            <response code="204">Delete category successfuly</response> 
+            <response code="500">Internal error server</response>
+        </member>
+        <member name="M:API.Controllers.CategoryController.SearchAsync(Application.Contract.Criteria.Categoies.CategoriesCriteria)">
+            <summary>
+                search categoies async
+            </summary>
+            <param name="criteria"> criteria to search </param> 
+            <response code="200">Retrieve list topic successfuly</response> 
+            <response code="500">Internal error server</response>
+        </member>
+        <member name="M:API.Controllers.CategoryController.GetListAsync">
+            <summary>
+                GetListAsync categoies async
+            </summary>
+            <response code="200">listParent successfuly</response> 
+            <response code="500">Internal error server</response>
+        </member>
+        <member name="M:API.Controllers.OrderController.CreateAsync(Application.Contract.Model.Order.CreateOrderRequestModel)">
+            <summary>
+             create new Order async
+            </summary>
+            <param name="createOrderRequestModel"> Order info to create new </param>
+            <response code = "200"> Create Order successfuly</response>
+            <response code = "500"> Internal error server</response>
+        </member>
+        <member name="M:API.Controllers.OrderController.UpdateAsync(System.Int32,Application.Contract.Model.Order.UpdateOrderRequestModel)">
+            <summary>
+            update order async
+            </summary>
+            <param name="id">order id to update</param>
+            <param name="updateOrderRequestModel">order id to update</param>
+            <response code="204">update order successfuly</response> 
+            <response code="500">Internal error server</response>
+        </member>
+        <member name="M:API.Controllers.OrderController.DeleteAsync(System.Int32)">
+            <summary>
+            delete order async
+            </summary>
+            <param name="id">order id to delete</param>
+            <response code="204">Delete order successfuly</response> 
+            <response code="500">Internal error server</response>
+        </member>
+        <member name="M:API.Controllers.ProductController.DeleteAsync(System.Int32)">
+            <summary>
+            delete product async
+            </summary>
+            <param name="id">product id to delete</param>
+            <response code="204">Delete product successfuly</response> 
+            <response code="500">Internal error server</response>
+        </member>
+        <member name="M:API.Controllers.ProductController.ListProductByCategoryId(System.Int32,Application.Common.OwnerParameters)">
+            <summary>
+            GetByCategoriesAsync product async
+            </summary>
+            <param name="id">product id to ListProductByCategoryId</param>
+            <param name="ownerParameters">product id to update</param>
+            <response code="204">GetListAsync product successfuly</response> 
+            <response code="500">Internal error server</response>
+        </member>
+        <member name="M:API.Controllers.ProductController.GetById(System.Int32)">
+            <summary>
+            GetByIdsAsync product async
+            </summary>
+            <param name="id">product id to getById</param>
+            <response code="204">GetByIdAsync product successfuly</response> 
+            <response code="500">Internal error server</response>
+        </member>
+        <member name="M:API.Controllers.RoleController.GetListRoleAsync">
+            <summary>
+            ListRole user async
+            </summary>
+            <response code="204">ListRole user successfuly</response> 
             <response code="500">Internal error server</response>
         </member>
         <member name="M:API.Controllers.UserController.SearchAsync(Application.Contract.Criteria.Users.UserCriteria)">
@@ -42,7 +131,22 @@
             delete user async
             </summary>
             <param name="id">user id to delete</param>
-            <response code="204">Delete topic successfuly</response> 
+            <response code="204">Delete user successfuly</response> 
+            <response code="500">Internal error server</response>
+        </member>
+        <member name="M:API.Controllers.UserController.GetByIdAsync(System.Int32)">
+            <summary>
+            getById user async
+            </summary>
+            <param name="id">user id to getById</param>
+            <response code="204">GetById user successfuly</response> 
+            <response code="500">Internal error server</response>
+        </member>
+        <member name="M:API.Controllers.UserController.ListUserAsync">
+            <summary>
+            getAll user async
+            </summary>
+            <response code="204">GetAll UserAsync successfuly</response> 
             <response code="500">Internal error server</response>
         </member>
     </members>

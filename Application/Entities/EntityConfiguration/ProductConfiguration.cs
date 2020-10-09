@@ -17,8 +17,18 @@ namespace Application.Entities.EntityConfiguration
             builder.Property(x => x.DateCreated).HasDefaultValue(DateTime.Now);
             builder.Property(x => x.Stock).IsRequired();
             builder.Property(x => x.Price).IsRequired();
-            builder.Property(x => x.OriginalPrice).IsRequired();
+            builder.Property(x => x.Caption).IsRequired();
             builder.Property(x => x.ViewCount).HasDefaultValue(0);
+
+            builder.HasOne(x => x.Categories)
+                .WithMany(ur => ur.Products)
+                .HasForeignKey(ur => ur.CategoryId)
+                .IsRequired();
+
+            builder.HasMany(x => x.ImageProducts)
+                .WithOne(x => x.Product)
+                .HasForeignKey(x => x.ProductId)
+                .IsRequired();
         }
     }
 }

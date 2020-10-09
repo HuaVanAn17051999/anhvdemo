@@ -14,6 +14,7 @@ namespace Application.Entities.EntityConfiguration
             builder.HasKey(x => new { x.OrderId, x.ProductId });
             builder.Property(x => x.Quantity).IsRequired();
             builder.Property(x => x.Price).IsRequired();
+         
 
             builder.HasOne(x => x.Order)
                 .WithMany(x => x.OrderDetails)

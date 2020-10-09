@@ -10,6 +10,7 @@ namespace Application.Entities
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public virtual IList<UserRole> UserRoles { get; set; }
-        public IList<Cart> Carts { get; set; }
+        public IList<Order> Orders { get; set; }
     }
 }
+    

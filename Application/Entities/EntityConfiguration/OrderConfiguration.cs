@@ -14,10 +14,14 @@ namespace Application.Entities.EntityConfiguration
             builder.ToTable("Orders");
             builder.HasKey(x => x.Id);
             builder.Property(x => x.ShipName).HasMaxLength(256).IsRequired();
-            builder.Property(x => x.ShipAddress).HasMaxLength(256).IsRequired();
-            builder.Property(x => x.ShipEmail).IsRequired();
+            builder.Property(x => x.ShipAddress).HasMaxLength(500).IsRequired();
             builder.Property(x => x.OrderDate).HasDefaultValue(DateTime.Now);
             builder.Property(x => x.Status).HasDefaultValue(OrderStatus.InProgress);
+
+            builder.HasOne(x => x.User)
+                .WithMany(ur => ur.Orders)
+                .HasForeignKey(x => x.UserId)
+                .IsRequired();
         }
     }
 }

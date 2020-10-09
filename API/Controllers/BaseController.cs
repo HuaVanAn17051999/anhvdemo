@@ -1,6 +1,4 @@
-﻿
-using System.Threading.Tasks;
-using Application.Entities;
+﻿using Application.Entities;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -12,7 +10,7 @@ namespace API.Controllers
     [ApiController]
     public class BaseController : ControllerBase
     {
-        protected UserManager<User> userManager;
+        protected UserManager<User> userManager;    
         public BaseController(UserManager<User> userManager)
         {
             this.userManager = userManager;

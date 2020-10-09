@@ -11,8 +11,8 @@ namespace Application.Contract.Model.Categories
         [Required]
         public string Name { get; set; }
         [Required]
-        public int ParentId { get; set; }
+        public bool Status { get; set; }
         [Required]
-        public Status Status { get; set; }
+        public int ParentId { get; set; }
     }
 }

@@ -49,6 +49,7 @@ namespace Application.Settings
                 if (result.Succeeded)
                 {
                     await userManager.AddToRoleAsync(user, role);
+                  
                 }
             }
         }

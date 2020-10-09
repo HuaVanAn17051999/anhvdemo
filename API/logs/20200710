@@ -1,0 +1,38 @@
+2020-07-10 18:52:28,669 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-10 18:52:28,681 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-10 18:52:28,683 [1] WARN - No type was specified for the decimal column 'OriginalPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-10 18:52:28,685 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-10 18:52:29,565 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-10 18:52:29,574 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-10 18:52:29,577 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-10 18:52:29,744 [1] INFO - Now listening on: https://localhost:5001
+2020-07-10 18:52:29,746 [1] INFO - Now listening on: http://localhost:5000
+2020-07-10 18:52:29,747 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-07-10 18:52:29,749 [1] INFO - Hosting environment: Development
+2020-07-10 18:52:29,750 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-07-10 18:52:31,090 [18] ERROR - Connection id "0HM14OUSMQRDF", Request id "0HM14OUSMQRDF:0000000B": An unhandled exception was thrown by the application.
+System.NotSupportedException: Conflicting method/path combination "POST api/v1/categories" for actions - API.Controllers.CategoryController.CreateAsync (API),API.Controllers.ProductController.CreateAsync (API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-07-10 18:53:21,076 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-10 18:53:21,089 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-10 18:53:21,091 [1] WARN - No type was specified for the decimal column 'OriginalPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-10 18:53:21,093 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-10 18:53:21,715 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-10 18:53:21,726 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-10 18:53:21,728 [8] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-07-10 18:53:21,882 [1] INFO - Now listening on: https://localhost:5001
+2020-07-10 18:53:21,884 [1] INFO - Now listening on: http://localhost:5000
+2020-07-10 18:53:21,885 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-07-10 18:53:21,887 [1] INFO - Hosting environment: Development
+2020-07-10 18:53:21,888 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-07-10 18:53:22,863 [17] ERROR - Connection id "0HM14OVC6714B", Request id "0HM14OVC6714B:00000003": An unhandled exception was thrown by the application.
+System.NotSupportedException: Conflicting method/path combination "POST api/v1/categories" for actions - API.Controllers.CategoryController.CreateAsync (API),API.Controllers.ProductController.CreateAsync (API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)

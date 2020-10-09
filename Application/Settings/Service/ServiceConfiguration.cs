@@ -1,11 +1,13 @@
 ﻿
-using Application.Services.Parent;
+using Application.Common;
+using Application.Services.Categories;
+using Application.Services.Order;
+using Application.Services.Product;
+using Application.Services.Roles;
 using Application.Services.User;
-using AutoMapper.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using Microsoft.Extensions.FileProviders;
+using System.IO;
 
 namespace Application.Settings.Service
 {
@@ -13,8 +15,17 @@ namespace Application.Settings.Service
     {
         public static IServiceCollection InjectService(this IServiceCollection services)
         {
+            services.AddSingleton<IFileProvider>(new PhysicalFileProvider(
+                Path.Combine(Directory.GetCurrentDirectory(), "wwwroot")));
+
+            services.AddTransient<IStorageService, FileStorageService>();
             services.AddScoped<IUserAppService, UserAppService>();
-            services.AddScoped<IParentAppService, ParentAppService>();
+            services.AddScoped<ICategoriesAppService, CategoriesAppService>();
+            services.AddScoped<IProductAppService, ProductAppService>();
+            services.AddScoped<IOrderAppService, OrderAppService>();
+            services.AddScoped<IRoleService, RoleService>();
+         
+            
             return services;
         }
     }

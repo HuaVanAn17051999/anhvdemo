@@ -1,0 +1,33 @@
+2020-09-27 00:01:09,395 [23] INFO - Request results of GetListAsync success
+2020-09-27 00:01:09,801 [4] INFO - Request results of GetListAsync success
+2020-09-27 00:01:47,572 [4] INFO - Request results of GetListAsync success
+2020-09-27 00:01:48,121 [23] INFO - Request results of GetListAsync success
+2020-09-27 00:13:48,372 [24] INFO - Running ListUserAsync function in UserAppService
+2020-09-27 00:13:48,438 [10] INFO - ListUserAsync function in UserAppService completed successfully.
+2020-09-27 00:13:48,446 [10] INFO - Request results of ListUserAsync success
+2020-09-27 16:07:52,492 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-27 16:07:52,503 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-27 16:07:52,505 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-27 16:07:53,293 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-27 16:07:53,305 [7] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-27 16:07:53,311 [13] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-27 16:07:53,482 [1] INFO - Now listening on: http://localhost:5000
+2020-09-27 16:07:53,484 [1] INFO - Now listening on: https://localhost:5001
+2020-09-27 16:07:53,486 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-27 16:07:53,488 [1] INFO - Hosting environment: Development
+2020-09-27 16:07:53,489 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-27 16:08:30,427 [4] INFO - Request results of GetListAsync success
+2020-09-27 16:09:27,845 [15] INFO - Request results of GetListAsync success
+2020-09-27 23:50:34,554 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-27 23:50:34,565 [1] WARN - No type was specified for the decimal column 'OldPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-27 23:50:34,566 [1] WARN - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-27 23:50:35,201 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-27 23:50:35,212 [4] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-27 23:50:35,215 [8] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-09-27 23:50:35,373 [1] INFO - Now listening on: http://localhost:5000
+2020-09-27 23:50:35,375 [1] INFO - Now listening on: https://localhost:5001
+2020-09-27 23:50:35,376 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-09-27 23:50:35,378 [1] INFO - Hosting environment: Development
+2020-09-27 23:50:35,379 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-09-27 23:50:51,368 [16] INFO - Request results of GetListAsync success
+2020-09-27 23:50:55,809 [10] INFO - Request results of GetListAsync success

@@ -19,7 +19,6 @@ namespace Application.Middleware
         {
             _next = next;
         }
-
         public async Task InvokeAsync(HttpContext context, IUserAppService userAppService)
         {
             if (!context.Request.Path.Equals("/token", StringComparison.Ordinal))
@@ -31,7 +30,6 @@ namespace Application.Middleware
                 await ExecuteLoginRequestAsync(context, userAppService);
             }
         }
-
         private async Task ExecuteNonLoginRequestAsync(HttpContext context)
         {
             try
@@ -43,7 +41,6 @@ namespace Application.Middleware
                 await HandleExceptionAsync(context, ex);
             }
         }
-
         private async Task ExecuteLoginRequestAsync(HttpContext context, IUserAppService userAppService)
         {
             try

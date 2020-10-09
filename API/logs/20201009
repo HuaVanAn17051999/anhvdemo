@@ -1,0 +1,15 @@
+2020-10-09 09:52:26,935 [8] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-10-09 09:52:26,953 [10] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-10-09 09:52:26,957 [9] WARN - Role (null) validation failed: DuplicateRoleName.
+2020-10-09 09:52:27,129 [1] INFO - Now listening on: http://localhost:5000
+2020-10-09 09:52:27,131 [1] INFO - Now listening on: https://localhost:5001
+2020-10-09 09:52:27,133 [1] INFO - Application started. Press Ctrl+C to shut down.
+2020-10-09 09:52:27,134 [1] INFO - Hosting environment: Development
+2020-10-09 09:52:27,136 [1] INFO - Content root path: D:\ASP.NET_CORE\ShopAnHua\API
+2020-10-09 09:52:57,118 [11] INFO - Request results of GetListAsync success
+2020-10-09 09:53:04,825 [13] INFO - Running ListUserAsync function in UserAppService
+2020-10-09 09:53:04,894 [8] INFO - ListUserAsync function in UserAppService completed successfully.
+2020-10-09 09:53:04,899 [8] INFO - Request results of ListUserAsync success
+2020-10-09 09:53:08,102 [15] INFO - Running ListUserAsync function in UserAppService
+2020-10-09 09:53:08,114 [13] INFO - ListUserAsync function in UserAppService completed successfully.
+2020-10-09 09:53:08,120 [13] INFO - Request results of ListUserAsync success

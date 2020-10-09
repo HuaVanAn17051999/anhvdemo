@@ -19,34 +19,6 @@ namespace Application.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Application.Entities.Cart", b =>
-                {
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("DateCreated")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2020, 7, 4, 21, 20, 20, 894, DateTimeKind.Local).AddTicks(2671));
-
-                    b.Property<decimal>("Price")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("decimal(18,2)")
-                        .HasDefaultValue(0m);
-
-                    b.Property<int>("Quantity")
-                        .HasColumnType("int");
-
-                    b.HasKey("ProductId", "UserId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Carts");
-                });
-
             modelBuilder.Entity("Application.Entities.Categories", b =>
                 {
                     b.Property<int>("Id")
@@ -57,12 +29,7 @@ namespace Application.Migrations
                     b.Property<DateTime>("DateCreate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2020, 7, 4, 21, 20, 20, 884, DateTimeKind.Local).AddTicks(5177));
-
-                    b.Property<bool>("IsShowHome")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bit")
-                        .HasDefaultValue(true);
+                        .HasDefaultValueSql("GetUtcDate()");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -75,71 +42,12 @@ namespace Application.Migrations
                     b.Property<string>("SeoTitle")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("SortOrder")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Status")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasDefaultValue(1);
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ParentId");
-
                     b.ToTable("Categories");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            DateCreate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsShowHome = false,
-                            Name = "IPHONE",
-                            ParentId = 1,
-                            SortOrder = 0,
-                            Status = 0
-                        },
-                        new
-                        {
-                            Id = 2,
-                            DateCreate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsShowHome = false,
-                            Name = "SAMSUMG",
-                            ParentId = 1,
-                            SortOrder = 0,
-                            Status = 0
-                        },
-                        new
-                        {
-                            Id = 3,
-                            DateCreate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsShowHome = false,
-                            Name = "XIAOMI",
-                            ParentId = 1,
-                            SortOrder = 0,
-                            Status = 0
-                        },
-                        new
-                        {
-                            Id = 4,
-                            DateCreate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsShowHome = false,
-                            Name = "DELL",
-                            ParentId = 2,
-                            SortOrder = 0,
-                            Status = 0
-                        },
-                        new
-                        {
-                            Id = 5,
-                            DateCreate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsShowHome = false,
-                            Name = "ASUS",
-                            ParentId = 2,
-                            SortOrder = 0,
-                            Status = 0
-                        });
                 });
 
             modelBuilder.Entity("Application.Entities.Contact", b =>
@@ -169,6 +77,42 @@ namespace Application.Migrations
                     b.ToTable("Contacts");
                 });
 
+            modelBuilder.Entity("Application.Entities.Image", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("DateCreate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ImagePath")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageSize")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Images");
+                });
+
+            modelBuilder.Entity("Application.Entities.ImageProduct", b =>
+                {
+                    b.Property<int>("ImageId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ImageId", "ProductId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ImageProducts");
+                });
+
             modelBuilder.Entity("Application.Entities.Menu", b =>
                 {
                     b.Property<int>("Id")
@@ -194,16 +138,12 @@ namespace Application.Migrations
                     b.Property<DateTime>("OrderDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2020, 7, 4, 21, 20, 20, 888, DateTimeKind.Local).AddTicks(8079));
+                        .HasDefaultValue(new DateTime(2020, 10, 9, 0, 17, 56, 878, DateTimeKind.Local).AddTicks(891));
 
                     b.Property<string>("ShipAddress")
                         .IsRequired()
-                        .HasColumnType("nvarchar(256)")
-                        .HasMaxLength(256);
-
-                    b.Property<string>("ShipEmail")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(500)")
+                        .HasMaxLength(500);
 
                     b.Property<string>("ShipName")
                         .IsRequired()
@@ -249,37 +189,6 @@ namespace Application.Migrations
                     b.ToTable("OrderDetails");
                 });
 
-            modelBuilder.Entity("Application.Entities.Parent", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(256)")
-                        .HasMaxLength(256);
-
-                    b.Property<string>("SeoTitle")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Parents");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Name = "Điện Thoại"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Name = "LapTop"
-                        });
-                });
-
             modelBuilder.Entity("Application.Entities.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -287,23 +196,24 @@ namespace Application.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("Caption")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("DateCreated")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2020, 7, 4, 21, 20, 20, 877, DateTimeKind.Local).AddTicks(6304));
-
-                    b.Property<string>("Details")
-                        .HasColumnType("nvarchar(max)");
+                        .HasDefaultValue(new DateTime(2020, 10, 9, 0, 17, 56, 868, DateTimeKind.Local).AddTicks(4036));
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(256)")
                         .HasMaxLength(256);
 
-                    b.Property<decimal>("OriginalPrice")
+                    b.Property<decimal>("OldPrice")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<decimal>("Price")
@@ -325,109 +235,6 @@ namespace Application.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Products");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CategoryId = 1,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "IPHONE 11 PRO",
-                            OriginalPrice = 12000000m,
-                            Price = 15000000m,
-                            Stock = 10,
-                            ViewCount = 0
-                        },
-                        new
-                        {
-                            Id = 2,
-                            CategoryId = 1,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "IPHONE XS PRO",
-                            OriginalPrice = 17000000m,
-                            Price = 22000000m,
-                            Stock = 8,
-                            ViewCount = 0
-                        },
-                        new
-                        {
-                            Id = 3,
-                            CategoryId = 1,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "IPHONE XMAX PRO",
-                            OriginalPrice = 32000000m,
-                            Price = 16000000m,
-                            Stock = 70,
-                            ViewCount = 0
-                        },
-                        new
-                        {
-                            Id = 4,
-                            CategoryId = 1,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "IPHONE 11 PRO",
-                            OriginalPrice = 19000000m,
-                            Price = 20000000m,
-                            Stock = 10,
-                            ViewCount = 0
-                        },
-                        new
-                        {
-                            Id = 5,
-                            CategoryId = 2,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "SAMSUMG 11 PRO",
-                            OriginalPrice = 12000000m,
-                            Price = 15000000m,
-                            Stock = 10,
-                            ViewCount = 0
-                        },
-                        new
-                        {
-                            Id = 6,
-                            CategoryId = 2,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "SAMSUMG 12 PRO",
-                            OriginalPrice = 12000000m,
-                            Price = 15000000m,
-                            Stock = 10,
-                            ViewCount = 0
-                        });
-                });
-
-            modelBuilder.Entity("Application.Entities.ProductImage", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Caption")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("DateCreated")
-                        .HasColumnType("datetime2");
-
-                    b.Property<long>("FileSize")
-                        .HasColumnType("bigint");
-
-                    b.Property<string>("ImagePath")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("IsDefault")
-                        .HasColumnType("bit");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("SortOrder")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("ProductImages");
                 });
 
             modelBuilder.Entity("Application.Entities.Role", b =>
@@ -653,26 +460,17 @@ namespace Application.Migrations
                     b.ToTable("UserTokens");
                 });
 
-            modelBuilder.Entity("Application.Entities.Cart", b =>
+            modelBuilder.Entity("Application.Entities.ImageProduct", b =>
                 {
+                    b.HasOne("Application.Entities.Image", "Image")
+                        .WithMany("ImageProducts")
+                        .HasForeignKey("ImageId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Application.Entities.Product", "Product")
-                        .WithMany("Carts")
+                        .WithMany("ImageProducts")
                         .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Application.Entities.User", "User")
-                        .WithMany("Carts")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("Application.Entities.Categories", b =>
-                {
-                    b.HasOne("Application.Entities.Parent", "Parents")
-                        .WithMany("Categories")
-                        .HasForeignKey("ParentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
@@ -680,7 +478,7 @@ namespace Application.Migrations
             modelBuilder.Entity("Application.Entities.Order", b =>
                 {
                     b.HasOne("Application.Entities.User", "User")
-                        .WithMany()
+                        .WithMany("Orders")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -703,18 +501,9 @@ namespace Application.Migrations
 
             modelBuilder.Entity("Application.Entities.Product", b =>
                 {
-                    b.HasOne("Application.Entities.Categories", "Category")
+                    b.HasOne("Application.Entities.Categories", "Categories")
                         .WithMany("Products")
                         .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("Application.Entities.ProductImage", b =>
-                {
-                    b.HasOne("Application.Entities.Product", "Product")
-                        .WithMany("ProductImages")
-                        .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
